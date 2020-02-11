@@ -11,12 +11,10 @@ public class Git {
     static String[] letters;
     public static void main(String[] args) {
        //PREGUNTAR DNI
-       int dni=12345678;
-       
-       
-      char letter= DNIletter(dni);
-        System.out.println(dni+":"+letter);
-        dni=keyboard.nextInt();
+        System.out.println("DNI?:");
+        int dni=keyboard.nextInt();
+        char letter= DNIletter(dni);
+        System.out.println(dni+""+letter);
         
     }
     
